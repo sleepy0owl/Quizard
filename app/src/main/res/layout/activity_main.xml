@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/my_value_4dp">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my_value_0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/my_value_8dp"
+            android:layout_marginLeft="@dimen/my_value_4dp"
+            android:layout_marginRight="@dimen/my_value_4dp"
+            android:layout_weight="1"
+            card_view:cardCornerRadius="@dimen/my_value_4dp"
+            card_view:cardElevation="@dimen/my_value_4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/my_value_16dp"
+                android:paddingEnd="@dimen/my_value_16dp"
+                android:paddingTop="@dimen/my_value_8dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/my_value_4dp"
+                        android:text="@string/topic_one"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/questions" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my_value_0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/my_value_8dp"
+            android:layout_marginLeft="@dimen/my_value_4dp"
+            android:layout_marginRight="@dimen/my_value_4dp"
+            android:layout_weight="1"
+            card_view:cardCornerRadius="@dimen/my_value_4dp"
+            card_view:cardElevation="@dimen/my_value_4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/my_value_16dp"
+                android:paddingEnd="@dimen/my_value_16dp"
+                android:paddingTop="@dimen/my_value_8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/my_value_4dp"
+                        android:text="@string/topic_two"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/questions" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my_value_0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/my_value_8dp"
+            android:layout_marginLeft="@dimen/my_value_4dp"
+            android:layout_marginRight="@dimen/my_value_4dp"
+            android:layout_weight="1"
+            card_view:cardCornerRadius="@dimen/my_value_4dp"
+            card_view:cardElevation="@dimen/my_value_4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/my_value_16dp"
+                android:paddingEnd="@dimen/my_value_16dp"
+                android:paddingTop="@dimen/my_value_8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/my_value_4dp"
+                        android:text="@string/topic_three"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/questions" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my_value_0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/my_value_8dp"
+            android:layout_marginLeft="@dimen/my_value_4dp"
+            android:layout_marginRight="@dimen/my_value_4dp"
+            android:layout_weight="1"
+            card_view:cardCornerRadius="@dimen/my_value_4dp"
+            card_view:cardElevation="@dimen/my_value_4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/my_value_16dp"
+                android:paddingEnd="@dimen/my_value_16dp"
+                android:paddingTop="@dimen/my_value_8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/my_value_4dp"
+                        android:text="@string/topic_four"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/questions" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/my_value_0dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/my_value_8dp"
+            android:layout_marginLeft="@dimen/my_value_4dp"
+            android:layout_marginRight="@dimen/my_value_4dp"
+            android:layout_weight="1"
+            card_view:cardCornerRadius="@dimen/my_value_4dp"
+            card_view:cardElevation="@dimen/my_value_4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/my_value_16dp"
+                android:paddingEnd="@dimen/my_value_16dp"
+                android:paddingTop="@dimen/my_value_8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/my_value_4dp"
+                        android:text="@string/topic_five"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/questions" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
